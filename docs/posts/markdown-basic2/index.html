@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="canonical" href="http://localhost:3000/posts/markdown-basic2/">
+    <link rel="prev" href="http://localhost:3000/posts/markdown-basic/">
+    <link rel="next" href="http://localhost:3000/posts/github-deploy/">
+    
+    <title>Markdown Basics - Links, Images, and Tables - My site</title>
+    <meta name="description" content="This guide will walk you through how to use links, images, and tables in Markdown">
+    
+    <meta property="og:url" content="http://localhost:3000/posts/markdown-basic2/">
+    <meta property="og:title" content="Markdown Basics - Links, Images, and Tables - My site">
+    <meta property="og:description" content="This guide will walk you through how to use links, images, and tables in Markdown">
+    <meta property="og:image" content="http://localhost:3000/assets/posts/markdown-basic2/cover.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Markdown Basics - Links, Images, and Tables - My site">
+    <meta name="twitter:description" content="This guide will walk you through how to use links, images, and tables in Markdown">
+    <meta name="twitter:image" content="http://localhost:3000/assets/posts/markdown-basic2/cover.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap">
+
+    <link rel="stylesheet" href="/css/modern-normalize.css">
+    <link rel="stylesheet" href="/css/modern-base.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    
+    
+    <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/icons/icon-320.png" type="image/png">
+    
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+        media="(prefers-color-scheme: dark)"
+    >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KQCKHXQ8');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <div id="navigation-container">
+        <header id="navigation" class="wrapper">
+            <a href="/">
+                <picture>
+                    <source
+                        srcset="/images/logos/logo~dark.png"
+                        media="(prefers-color-scheme: dark)"
+                        >
+                    <img
+                        src="/images/logos/logo.png"
+                        alt="Logo of My site"
+                        title="My site"
+                        >
+                </picture>
+            </a>
+            <nav>
+                <input type="checkbox" id="primary-menu-button" name="menu-button" class="menu-button">
+                    <label for="primary-menu-button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </label>
+                    <div class="menu-items">
+                        <a href="/news/">News</a>
+                    <a href="/bio/">Bio</a>
+                    <a href="/authors/">Authors</a>
+                    <a href="/tags/">Tags</a>
+                    <a href="/tour/">Tour</a>
+                    </div>
+            </nav>
+        </header>
+    </div>
+    
+    <main>
+        
+        <div>
+        
+            <div class="extra-space"> </div>
+        
+            <div class="article-class">
+                <article>
+        
+                    <div class="post-meta">
+        
+                        <time datetime="2025.01.12.">
+                            2025.01.12.
+                        </time>
+                        |
+                            <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
+                    
+                    </div>
+                    
+                    <h1>Markdown Basics - Links, Images, and Tables</h1><p>Markdown makes it easy to add links, images, and tables to your documents using simple syntax.</p><hr><h2 id="links">Links</h2><h3 id="1.-basic-links">1. Basic Links</h3><p>Use square brackets <code>[ ]</code> for the link text and parentheses <code>( )</code> for the URL:</p><pre><code>[Link Text](https://example.com)
+</code></pre><h3 id="2.-links-with-titles">2. Links with Titles</h3><p>Add a title by including text in quotes after the URL:</p><pre><code>[Link Text](https://example.com "Optional Title")
+</code></pre><h2 id="images">Images</h2><h3 id="1.-basic-images">1. Basic Images</h3><p>Similar to links, but with an exclamation mark <code>!</code> at the beginning:</p><pre><code>![Alt Text](https://example.com/image.jpg)
+</code></pre><h3 id="2.-images-with-titles">2. Images with Titles</h3><p>Add a title in quotes for extra context:</p><pre><code>![Alt Text](https://example.com/image.jpg "Optional Title")
+</code></pre><h3 id="tables">Tables</h3><p>Use pipes <code>|</code> and dashes <code>-</code> to create tables:</p><pre><code>| Syntax      | Description |
+|----|----|
+| **Bold**    | Bold text   |
+| *Italic*    | Italic text |
+</code></pre><h3 id="code-blocks">Code Blocks</h3><h2 id="1.-inline-code">1. Inline Code</h2><p>Wrap code in backticks:</p><pre><code>`inline code`
+</code></pre><h2 id="2.-code-blocks">2. Code Blocks</h2><p>Use triple backticks for multi-line code:</p><pre><code>function example() {
+  console.log("Hello, Markdown!");
+}
+</code></pre><h3 id="wrapping-up">Wrapping Up</h3><p>Markdown provides a simple way to include links, images, tables, and code in your content. Master these features to create well-structured and visually appealing documents!</p>
+                        
+                    <h4>TAGS</h4> 
+                    <div class="tag-list">
+                            <a href="http://localhost:3000/tags/markdown/"><small>Markdown</small></a>
+                    </div>
+        
+                    <h4>SHARE VIA</h4> 
+                        <div class="shares">
+                        
+                            <a href="https://twitter.com/intent/tweet?url=http://localhost:3000/posts/markdown-basic2/" target="_blank">
+                                <svg viewBox="0 0 128 128">
+                                <path d="M75.916 54.2 122.542 0h-11.05L71.008 47.06 38.672 0H1.376l48.898 71.164L1.376 128h11.05L55.18 78.303 89.328 128h37.296L75.913 54.2ZM60.782 71.79l-4.955-7.086-39.42-56.386h16.972L65.19 53.824l4.954 7.086 41.353 59.15h-16.97L60.782 71.793Z" fill="currentColor" style="stroke-width:.104373"></path>
+                                </svg>
+                            </a>
+                           
+                            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:3000/posts/markdown-basic2/" target="_blank">
+                                <svg viewBox="0 0 128 128">
+                                <path fill="currentColor" d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"></path>
+                                <path fill="var(--background-color)" d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 11-10.5 10.49 10.5 10.5 0 0110.5-10.49M50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"></path>
+                                </svg>
+                            </a>
+                        
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/posts/markdown-basic2/" target="_blank">
+                                <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"/>
+                                </svg>
+                            </a>
+                        
+                        </div>                        
+                </article>
+            </div>
+        
+            <div class="wrapper">
+                <div class="section-divider" />
+            </div>
+        
+            <div class="wrapper">
+        
+                <h4>RELATED POSTS</h4>    
+                <div class="grid grid-221">
+                        <div class="post-card">
+                            
+                            <a href="http://localhost:3000/posts/markdown-basic/" target="">
+                                <img src="http://localhost:3000/assets/posts/markdown-basic/cover.jpg">
+                            </a>
+                        
+                            <div class="post-meta">
+                        
+                                <time datetime="2025.01.13.">
+                                    2025.01.13.
+                                </time>
+                                |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
+                               
+                            </div>
+                        
+                            <div class="post-title">
+                                <a href="http://localhost:3000/posts/markdown-basic/" target="">Markdown Basics - Text Formatting and Lists </a>
+                            </div>
+                            
+                        </div>            </div>
+        
+            </div>
+        
+        </div>
+        
+    </main>
+    
+    <footer id="site-footer">
+    
+        <div class="wrapper">
+            <div class="section-divider" />
+        </div>
+    
+        <b><small>Social</small></b>
+        <div class="footer-social">
+                <small><a href="https://instagram.com/" target="_blank">Instagram</a></small>
+            <small><a href="https://facebook.com/" target="_blank">Facebook</a></small>
+            <small><a href="https://youtube.com/" target="_blank">YouTube</a></small>
+            <small><a href="https://tiktok.com/" target="_blank">TikTok</a></small>
+            <small><a href="https://linkedin.com/" target="_blank">LinkedIn</a></small>
+            <small><a href="https://x.com/" target="_blank">X</a></small>
+        </div>
+    
+        <div class="footer-bottom">
+            <div id="footer-bottom-div1">
+                <small>My site &copy; 2025</small>
+            </div>
+            <div id="footer-bottom-div2">
+                <small>This site was generated using <a href="https://swift.org/" target="_blank">Swift</a> & <a href="https://github.com/binarybirds/toucan" target="_blank">Toucan</a>.</small>
+            </div>
+        </div>
+        
+    </footer>
+
+    
+    
+    <script src="/js/favicon.js"></script>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQCKHXQ8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+</html>

@@ -1,0 +1,47 @@
+.event-schedule {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #444;
+}
+
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #444;
+}
+
+.event-date {
+  width: 100px;
+  font-weight: bold;
+  color: gray;
+}
+
+.event-details {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.event-actions .btn {
+  padding: 8px 15px;
+  background: linear-gradient(90deg, #333, #666);
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: background 0.3s ease;
+}
+
+.event-actions .btn:hover {
+  background: linear-gradient(90deg, #666, #999);
+}
+
