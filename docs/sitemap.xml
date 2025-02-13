@@ -1,50 +1,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:3000</loc>
+        <loc>https://colonel323.github.io/DeadGraySite</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/authors/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/authors/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/authors/band-leader/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/authors/band-leader/</loc>
         <lastmod>2025-02-10</lastmod>
-        <loc>http://localhost:3000/authors/toucansites/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/authors/toucansites/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/bio/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/bio/</loc>
         <lastmod>2025-02-11</lastmod>
-        <loc>http://localhost:3000/news/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/news/</loc>
         <lastmod>2025-02-11</lastmod>
-        <loc>http://localhost:3000/tags/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/tags/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/tags/band/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/tags/band/</loc>
         <lastmod>2025-02-10</lastmod>
-        <loc>http://localhost:3000/tags/content/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/tags/content/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/tags/deployment/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/tags/deployment/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/tags/markdown/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/tags/markdown/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/tour/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/tour/</loc>
         <lastmod>2025-02-11</lastmod>
-        <loc>http://localhost:3000/posts/my-first-post/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/my-first-post/</loc>
         <lastmod>2025-02-11</lastmod>
-        <loc>http://localhost:3000/posts/start/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/start/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/change-site-logo/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/change-site-logo/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/new-tag/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/new-tag/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/new-author/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/new-author/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/new-post/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/new-post/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/new-navigation/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/new-navigation/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/change-footer/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/change-footer/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/markdown-basic/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/markdown-basic/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/markdown-basic2/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/markdown-basic2/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>http://localhost:3000/posts/github-deploy/</loc>
+        <loc>https://colonel323.github.io/DeadGraySite/posts/github-deploy/</loc>
         <lastmod>2025-02-13</lastmod>
     </url>
 </urlset>
