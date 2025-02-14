@@ -1,50 +1,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://colonel323.github.io/DeadGraySite</loc>
+        <loc>https://deadgray.com</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/authors/</loc>
+        <loc>https://deadgray.com/authors/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/authors/band-leader/</loc>
+        <loc>https://deadgray.com/authors/band-leader/</loc>
+        <lastmod>2025-02-14</lastmod>
+        <loc>https://deadgray.com/authors/toucansites/</loc>
+        <lastmod>2025-01-30</lastmod>
+        <loc>https://deadgray.com/bio/</loc>
+        <lastmod>2025-02-11</lastmod>
+        <loc>https://deadgray.com/news/</loc>
+        <lastmod>2025-02-11</lastmod>
+        <loc>https://deadgray.com/tags/</loc>
+        <lastmod>2025-01-30</lastmod>
+        <loc>https://deadgray.com/tags/band/</loc>
         <lastmod>2025-02-10</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/authors/toucansites/</loc>
+        <loc>https://deadgray.com/tags/content/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/bio/</loc>
+        <loc>https://deadgray.com/tags/deployment/</loc>
+        <lastmod>2025-01-30</lastmod>
+        <loc>https://deadgray.com/tags/markdown/</loc>
+        <lastmod>2025-01-30</lastmod>
+        <loc>https://deadgray.com/tour/</loc>
         <lastmod>2025-02-11</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/news/</loc>
+        <loc>https://deadgray.com/posts/my-first-post/</loc>
         <lastmod>2025-02-11</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/tags/</loc>
+        <loc>https://deadgray.com/posts/start/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/tags/band/</loc>
-        <lastmod>2025-02-10</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/tags/content/</loc>
+        <loc>https://deadgray.com/posts/change-site-logo/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/tags/deployment/</loc>
+        <loc>https://deadgray.com/posts/new-tag/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/tags/markdown/</loc>
+        <loc>https://deadgray.com/posts/new-author/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/tour/</loc>
-        <lastmod>2025-02-11</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/my-first-post/</loc>
-        <lastmod>2025-02-11</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/start/</loc>
+        <loc>https://deadgray.com/posts/new-post/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/change-site-logo/</loc>
+        <loc>https://deadgray.com/posts/new-navigation/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/new-tag/</loc>
+        <loc>https://deadgray.com/posts/change-footer/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/new-author/</loc>
+        <loc>https://deadgray.com/posts/markdown-basic/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/new-post/</loc>
+        <loc>https://deadgray.com/posts/markdown-basic2/</loc>
         <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/new-navigation/</loc>
-        <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/change-footer/</loc>
-        <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/markdown-basic/</loc>
-        <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/markdown-basic2/</loc>
-        <lastmod>2025-01-30</lastmod>
-        <loc>https://colonel323.github.io/DeadGraySite/posts/github-deploy/</loc>
+        <loc>https://deadgray.com/posts/github-deploy/</loc>
         <lastmod>2025-02-13</lastmod>
     </url>
 </urlset>

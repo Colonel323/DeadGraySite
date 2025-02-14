@@ -2,88 +2,88 @@
 <channel>
     <title>My site</title>
     <description>Description for my site</description>
-    <link>https://colonel323.github.io/DeadGraySite</link>
+    <link>https://deadgray.com</link>
     <language>en-US</language>
-    <lastBuildDate>Thu, 13 Feb 2025 16:09:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2025 13:13:58 +0000</lastBuildDate>
     <pubDate>Mon, 10 Feb 2025 11:22:00 +0000</pubDate>
     <ttl>250</ttl>
-    <atom:link href="https://colonel323.github.io/DeadGraySiterss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://deadgray.comrss.xml" rel="self" type="application/rss+xml"/>
 
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/my-first-post/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/my-first-post/</guid>
     <title><![CDATA[ My First Blog Post ]]></title>
     <description><![CDATA[ This is an introduction to my first post. ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/my-first-post/</link>
+    <link>https://deadgray.com/posts/my-first-post/</link>
     <pubDate>Mon, 10 Feb 2025 11:22:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/start/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/start/</guid>
     <title><![CDATA[ START ]]></title>
     <description><![CDATA[ This guide will walk you through essential tasks such as changing the site logo, adding new content (tags, authors, posts), and customizing your site’s pages and footer ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/start/</link>
+    <link>https://deadgray.com/posts/start/</link>
     <pubDate>Mon, 20 Jan 2025 01:36:39 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/change-site-logo/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/change-site-logo/</guid>
     <title><![CDATA[ Change the Site Logo ]]></title>
     <description><![CDATA[ This guide will walk you through how to change the site logo ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/change-site-logo/</link>
+    <link>https://deadgray.com/posts/change-site-logo/</link>
     <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/new-tag/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/new-tag/</guid>
     <title><![CDATA[ Add New Tag ]]></title>
     <description><![CDATA[ This guide will walk you through how to add a new tag ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/new-tag/</link>
+    <link>https://deadgray.com/posts/new-tag/</link>
     <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/new-author/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/new-author/</guid>
     <title><![CDATA[ Add New Author ]]></title>
     <description><![CDATA[ This guide will walk you through how to add a new author ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/new-author/</link>
+    <link>https://deadgray.com/posts/new-author/</link>
     <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/new-post/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/new-post/</guid>
     <title><![CDATA[ Add New Post ]]></title>
     <description><![CDATA[ This guide will walk you through how to add a new post. ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/new-post/</link>
+    <link>https://deadgray.com/posts/new-post/</link>
     <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/new-navigation/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/new-navigation/</guid>
     <title><![CDATA[ Create a custom page in navigation ]]></title>
     <description><![CDATA[ This guide will walk you through how to create a custom page and add it to the navigation menu ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/new-navigation/</link>
+    <link>https://deadgray.com/posts/new-navigation/</link>
     <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/change-footer/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/change-footer/</guid>
     <title><![CDATA[ Customize the footer ]]></title>
     <description><![CDATA[ This guide will walk you through how to customize the footer ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/change-footer/</link>
+    <link>https://deadgray.com/posts/change-footer/</link>
     <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/markdown-basic/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/markdown-basic/</guid>
     <title><![CDATA[ Markdown Basics - Text Formatting and Lists ]]></title>
     <description><![CDATA[ This guide will walk you through the basics of Markdown text formatting and lists ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/markdown-basic/</link>
+    <link>https://deadgray.com/posts/markdown-basic/</link>
     <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/markdown-basic2/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/markdown-basic2/</guid>
     <title><![CDATA[ Markdown Basics - Links, Images, and Tables ]]></title>
     <description><![CDATA[ This guide will walk you through how to use links, images, and tables in Markdown ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/markdown-basic2/</link>
+    <link>https://deadgray.com/posts/markdown-basic2/</link>
     <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://colonel323.github.io/DeadGraySite/posts/github-deploy/</guid>
+    <guid isPermaLink="true">https://deadgray.com/posts/github-deploy/</guid>
     <title><![CDATA[ GitHub Deploy ]]></title>
     <description><![CDATA[ Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site ]]></description>
-    <link>https://colonel323.github.io/DeadGraySite/posts/github-deploy/</link>
+    <link>https://deadgray.com/posts/github-deploy/</link>
     <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 
