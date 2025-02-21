@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="/css/modern-normalize.css">
     <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/colors.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/navigation.css">
@@ -98,9 +98,7 @@
                         </svg>
                     </label>
                     <div class="menu-items">
-                        <a href="/news/">News</a>
-                    <a href="/bio/">Bio</a>
-                    <a href="/contact/">Contact</a>
+                        <a href="/about/">About</a>
                     </div>
             </nav>
         </header>
@@ -121,11 +119,12 @@
                             2025.01.17.
                         </time>
                         |
+                            <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                     
                     </div>
                     
-                    <h1>Add a New Author</h1><p>Authors allow you to attribute content to specific contributors, enhancing credibility and providing additional context for your website. Follow these steps to add a new author in <strong>Try-O-Theme</strong>.</p><hr><h3 id="step-1-navigate-to-the-authors-directory">Step 1: Navigate to the Authors Directory</h3><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/authors/</strong> folder. This folder contains all author-related content.</li></ol><hr><h3 id="step-2-create-a-new-author-directory">Step 2: Create a New Author Directory</h3><ol><li>Create a new directory for your author:<ul><li>Name the folder based on the author’s name. For example:<pre><code>mkdir src/contents/authors/john-doe
-</code></pre></li><li>Use lowercase letters and hyphens for consistency in folder naming.</li></ul></li></ol><hr><h3 id="step-3-add-an-index.md-file">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/authors/john-doe</code>), create a file named <code>index.md</code>.<ul><li>This file stores the author’s metadata.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---
+                    <h1>Add a New Author</h1><p>Authors allow you to attribute content to specific contributors, enhancing credibility and providing additional context for your website. Follow these steps to add a new author in <strong>Try-O-Theme</strong>.</p><hr><h2 id="step-1-navigate-to-the-authors-directory">Step 1: Navigate to the Authors Directory</h2><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/authors/</strong> folder. This folder contains all author-related content.</li></ol><hr><h2 id="step-2-create-a-new-author-directory">Step 2: Create a New Author Directory</h2><ol><li>Create a new directory for your author:<ul><li>Name the folder based on the author’s name. For example:<pre><code class="language-bash">mkdir src/contents/authors/john-doe
+</code></pre></li><li>Use lowercase letters and hyphens for consistency in folder naming.</li></ul></li></ol><hr><h2 id="step-3-add-an-index.md-file">Step 3: Add an <strong>index.md</strong> File</h2><ol><li>Inside the new directory (e.g., <strong>src/contents/authors/john-doe</strong>), create a file named <strong>index.md</strong>.<ul><li>This file stores the author’s metadata.</li></ul></li><li>Add the following content to the <strong>index.md</strong> file:<pre><code class="language-markdown">---
 type: author
 title: John Doe
 description: "Tech Blogger and Writer"
@@ -134,10 +133,10 @@ priority: 1
 linkedin: "https://www.linkedin.com/in/johndoe/"
 twitter: "https://twitter.com/johndoe"
 ---
-</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>author</code>.</li><li><strong>title</strong>: The display name of the author.</li><li><strong>description</strong>: A short bio of the author.</li><li><strong>image</strong>: Path to the author’s profile picture (relative to the author’s directory).</li><li><strong>priority</strong>: Specifies the display order of authors, with lower numbers appearing first.</li><li><strong>linkedin</strong>: Add the author’s LinkedIn profile URL (optional).</li><li><strong>twitter</strong>: Add the author’s Twitter handle (optional).</li></ul></li></ol><hr><h3 id="step-4-add-a-profile-picture">Step 4: Add a Profile Picture</h3><ol><li>Inside the author’s directory, create an <strong>assets</strong> folder:<pre><code>mkdir src/contents/authors/john-doe/assets
-</code></pre></li><li>Place a profile picture named <code>cover.jpg</code> (or the filename specified in the <code>image field</code>) inside the assets folder.</li></ol><hr><h3 id="step-5-regenerate-the-site">Step 5: Regenerate the Site</h3><p>After creating the author, you need to regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate
-</code></pre></li><li>This updates the site’s content and templates to include the new author.</li></ol><hr><h3 id="step-6-verify-the-author">Step 6: Verify the Author</h3><ol><li>Start the local development server:<pre><code>toucan serve
-</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000">http://localhost:3000</a>.</li><li>Go to the <strong>Authors</strong> page to verify that the new author is displayed.</li></ol><hr><h3 id="additional-notes">Additional Notes</h3><ul><li><strong>Using Authors in Posts</strong>:<ul><li>To assign an author to a post, include their folder name in the <code>authors</code> field of the post’s <code>index.md</code> file.<pre><code class="language-markdown">authors:
+</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <strong>author</strong>.</li><li><strong>title</strong>: The display name of the author.</li><li><strong>description</strong>: A short bio of the author.</li><li><strong>image</strong>: Path to the author’s profile picture (relative to the author’s directory).</li><li><strong>priority</strong>: Specifies the display order of authors, with lower numbers appearing first.</li><li><strong>linkedin</strong>: Add the author’s LinkedIn profile URL (optional).</li><li><strong>twitter</strong>: Add the author’s Twitter handle (optional).</li></ul></li></ol><hr><h2 id="step-4-add-a-profile-picture">Step 4: Add a Profile Picture</h2><ol><li>Inside the author’s directory, create an <strong>assets</strong> folder:<pre><code class="language-bash">mkdir src/contents/authors/john-doe/assets
+</code></pre></li><li>Place a profile picture named <strong>cover.jpg</strong> (or the filename specified in the <strong>image field</strong>) inside the assets folder.</li></ol><hr><h2 id="step-5-regenerate-the-site">Step 5: Regenerate the Site</h2><p>After creating the author, you need to regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code class="language-bash">toucan generate
+</code></pre></li><li>This updates the site’s content and templates to include the new author.</li></ol><hr><h2 id="step-6-verify-the-author">Step 6: Verify the Author</h2><ol><li>Start the local development server:<pre><code class="language-bash">toucan serve
+</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000">http://localhost:3000</a>.</li><li>Go to the <strong>Authors</strong> page to verify that the new author is displayed.</li></ol><hr><h2 id="additional-notes">Additional Notes</h2><ul><li><strong>Using Authors in Posts</strong>:<ul><li>To assign an author to a post, include their folder name in the <strong>authors</strong> field of the post’s <strong>index.md</strong> file.<pre><code class="language-markdown">authors:
   - john-doe
 </code></pre></li></ul></li><li><strong>Styling Author Profiles</strong>:<ul><li>To customize the author display, modify the relevant Mustache template in the <strong>src/themes/default/templates/</strong> directory.</li></ul></li></ul><hr><p>This guide ensures you can easily add and manage authors in <strong>Try-O-Theme</strong>.</p>
                         
@@ -192,6 +191,7 @@ twitter: "https://twitter.com/johndoe"
                                     2025.01.20.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -211,6 +211,7 @@ twitter: "https://twitter.com/johndoe"
                                     2025.01.19.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -230,6 +231,7 @@ twitter: "https://twitter.com/johndoe"
                                     2025.01.18.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -249,6 +251,7 @@ twitter: "https://twitter.com/johndoe"
                                     2025.01.16.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -268,6 +271,7 @@ twitter: "https://twitter.com/johndoe"
                                     2025.01.15.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -287,6 +291,7 @@ twitter: "https://twitter.com/johndoe"
                                     2025.01.14.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         

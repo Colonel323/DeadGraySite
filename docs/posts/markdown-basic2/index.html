@@ -7,19 +7,19 @@
     
     <link rel="canonical" href="http://localhost:3000/posts/markdown-basic2/">
     <link rel="prev" href="http://localhost:3000/posts/markdown-basic/">
-    <link rel="next" href="http://localhost:3000/posts/github-deploy/">
+    <link rel="next" href="http://localhost:3000/posts/theme-tweaks/">
     
-    <title>Markdown Basics - Links, Images, and Tables - My site</title>
-    <meta name="description" content="This guide will walk you through how to use links, images, and tables in Markdown">
+    <title>Markdown Basics - List, Links and Images - My site</title>
+    <meta name="description" content="This guide will walk you through how to use lists, links and images in Markdown">
     
     <meta property="og:url" content="http://localhost:3000/posts/markdown-basic2/">
-    <meta property="og:title" content="Markdown Basics - Links, Images, and Tables - My site">
-    <meta property="og:description" content="This guide will walk you through how to use links, images, and tables in Markdown">
+    <meta property="og:title" content="Markdown Basics - List, Links and Images - My site">
+    <meta property="og:description" content="This guide will walk you through how to use lists, links and images in Markdown">
     <meta property="og:image" content="http://localhost:3000/assets/posts/markdown-basic2/cover.jpg" />
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Markdown Basics - Links, Images, and Tables - My site">
-    <meta name="twitter:description" content="This guide will walk you through how to use links, images, and tables in Markdown">
+    <meta name="twitter:title" content="Markdown Basics - List, Links and Images - My site">
+    <meta name="twitter:description" content="This guide will walk you through how to use lists, links and images in Markdown">
     <meta name="twitter:image" content="http://localhost:3000/assets/posts/markdown-basic2/cover.jpg">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="/css/modern-normalize.css">
     <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/colors.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/navigation.css">
@@ -98,9 +98,7 @@
                         </svg>
                     </label>
                     <div class="menu-items">
-                        <a href="/news/">News</a>
-                    <a href="/bio/">Bio</a>
-                    <a href="/contact/">Contact</a>
+                        <a href="/about/">About</a>
                     </div>
             </nav>
         </header>
@@ -121,22 +119,27 @@
                             2025.01.12.
                         </time>
                         |
+                            <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                     
                     </div>
                     
-                    <h1>Markdown Basics - Links, Images, and Tables</h1><p>Markdown makes it easy to add links, images, and tables to your documents using simple syntax.</p><hr><h2 id="links">Links</h2><h3 id="1.-basic-links">1. Basic Links</h3><p>Use square brackets <code>[ ]</code> for the link text and parentheses <code>( )</code> for the URL:</p><pre><code>[Link Text](https://example.com)
-</code></pre><h3 id="2.-links-with-titles">2. Links with Titles</h3><p>Add a title by including text in quotes after the URL:</p><pre><code>[Link Text](https://example.com "Optional Title")
-</code></pre><h2 id="images">Images</h2><h3 id="1.-basic-images">1. Basic Images</h3><p>Similar to links, but with an exclamation mark <code>!</code> at the beginning:</p><pre><code>![Alt Text](https://example.com/image.jpg)
-</code></pre><h3 id="2.-images-with-titles">2. Images with Titles</h3><p>Add a title in quotes for extra context:</p><pre><code>![Alt Text](https://example.com/image.jpg "Optional Title")
-</code></pre><h3 id="tables">Tables</h3><p>Use pipes <code>|</code> and dashes <code>-</code> to create tables:</p><pre><code>| Syntax      | Description |
-|----|----|
-| **Bold**    | Bold text   |
-| *Italic*    | Italic text |
-</code></pre><h3 id="code-blocks">Code Blocks</h3><h2 id="1.-inline-code">1. Inline Code</h2><p>Wrap code in backticks:</p><pre><code>`inline code`
-</code></pre><h2 id="2.-code-blocks">2. Code Blocks</h2><p>Use triple backticks for multi-line code:</p><pre><code>function example() {
+                    <h1>List, Links and Images</h1><p>Markdown makes it easy to add lists, links and images to your documents using simple syntax.</p><hr><h2 id="lists">Lists</h2><h3 id="1.-unordered-lists">1. Unordered Lists</h3><p>Use ‘-’ or ‘*’ to create unordered lists:</p><pre><code class="language-markdown">- Item 1
+- Item 2
+  - Subitem 2.1
+</code></pre><ul><li>Item 1</li><li>Item 2<ul><li>Subitem 2.1</li></ul></li></ul><h3 id="2.-ordered-lists">2. Ordered Lists</h3><p>Use numbers followed by a period to create an ordered list:</p><pre><code class="language-markdown">1. Item 1
+2. Item 2
+   1. Subitem 2.1
+</code></pre><ol><li>Item 1</li><li>Item 2<ol><li>Subitem 2.1</li></ol></li></ol><h3 id="3.-nesting">3. Nesting</h3><p>You can nest ordered and unordered lists together:</p><pre><code class="language-markdown">1. Ordered item
+   - Subitem 1
+</code></pre><ol><li>Ordered item<ul><li>Subitem 1</li></ul></li></ol><h2 id="links">Links</h2><p>Use square brackets <strong>[ ]</strong> for the link text and parentheses <strong>( )</strong> for the URL:</p><h3 id="1.-simple-link">1. Simple link</h3><pre><code class="language-markdown">[Link Text](https://example.com)
+</code></pre><p><a href="https://google.com" target="_blank">google.com</a></p><h3 id="2.-mail-link">2. Mail link</h3><pre><code class="language-markdown">[Send me an email](mailto:example@example.com)
+</code></pre><p><a href="mailto:example@example.com" target="_blank">Send me an email</a></p><h2 id="images">Images</h2><h3 id="1.-basic-images">1. Basic Images</h3><p>Similar to links, but with an exclamation mark <strong>!</strong> at the beginning:</p><pre><code class="language-markdown">![Alt Text](https://example.com/image.jpg)
+</code></pre><p>    <img src="https://img.freepik.com/free-photo/transparent-colourful-autumn-leaves_23-2148239694.jpg" alt="image"></p><h3 id="2.-images-with-titles">2. Images with Titles</h3><p>Add a title in quotes for extra context:</p><pre><code class="language-markdown">![Alt Text](https://example.com/image.jpg "Optional Title")
+</code></pre><p>    <img src="https://img.freepik.com/free-photo/transparent-colourful-autumn-leaves_23-2148239694.jpg" alt="image" title="with title"></p><h2 id="code-blocks">Code Blocks</h2><h3 id="1.-inline-code">1. Inline Code</h3><p>Wrap code in backticks:</p><pre><code class="language-markdown">`inline code`
+</code></pre><h3 id="2.-code-blocks">2. Code Blocks</h3><p>Use triple backticks for multi-line code:</p><pre><code class="language-markdown">function example() {
   console.log("Hello, Markdown!");
 }
-</code></pre><h3 id="wrapping-up">Wrapping Up</h3><p>Markdown provides a simple way to include links, images, tables, and code in your content. Master these features to create well-structured and visually appealing documents!</p>
+</code></pre>
                         
                     <h4>TAGS</h4> 
                     <div class="tag-list">
@@ -189,11 +192,12 @@
                                     2025.01.13.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
                             <div class="post-title">
-                                <a href="http://localhost:3000/posts/markdown-basic/" target="">Markdown Basics - Text Formatting and Lists </a>
+                                <a href="http://localhost:3000/posts/markdown-basic/" target="">Markdown Basics - Text Formatting </a>
                             </div>
                             
                         </div>            </div>

@@ -1,16 +1,11 @@
-baseUrl: "https://deadgray.com/"
+baseUrl: "http://localhost:3000/"
 language: "en-US"
 title: "My site"
 description: "Description for my site"
 dateFormat: "yyyy.MM.dd."
 navigation:
-    - label: "News"
-      url: "/news/"
-    - label: "Bio"
-      url: "/bio/"
-    - label: "Contact"
-      url: "/contact/"
-      
+    - label: "About"
+      url: "/about/"
 footer-socials:
   - title: "Instagram"
     url: "https://www.instagram.com/deadgrayband/"

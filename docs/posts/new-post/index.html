@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="/css/modern-normalize.css">
     <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/colors.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/navigation.css">
@@ -98,9 +98,7 @@
                         </svg>
                     </label>
                     <div class="menu-items">
-                        <a href="/news/">News</a>
-                    <a href="/bio/">Bio</a>
-                    <a href="/contact/">Contact</a>
+                        <a href="/about/">About</a>
                     </div>
             </nav>
         </header>
@@ -121,11 +119,12 @@
                             2025.01.16.
                         </time>
                         |
+                            <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                     
                     </div>
                     
-                    <h1>Add a New Post</h1><p>Adding new posts is essential to keeping your site updated with fresh content. Follow these steps to create and publish a new post in <strong>Try-O-Theme</strong>.</p><hr><h3 id="step-1-navigate-to-the-posts-directory">Step 1: Navigate to the Posts Directory</h3><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/posts/</strong> folder. This folder contains all post-related content.</li></ol><hr><h3 id="step-2-create-a-new-post-directory">Step 2: Create a New Post Directory</h3><ol><li>Create a new directory for your post:<ul><li>Name the folder based on the post title or a short identifier. For example:<pre><code>mkdir src/contents/posts/my-first-post
-</code></pre></li><li>Use lowercase letters and hyphens to maintain consistency in folder naming.</li></ul></li></ol><hr><h3 id="step-3-add-an-index.md-file">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/posts/my-first-post</code>), create a file named <code>index.md</code>.<ul><li>This file stores the metadata and content for the post.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---
+                    <h1>Add a New Post</h1><p>Adding new posts is essential to keeping your site updated with fresh content. Follow these steps to create and publish a new post in <strong>Try-O-Theme</strong>.</p><hr><h2 id="step-1-navigate-to-the-posts-directory">Step 1: Navigate to the Posts Directory</h2><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/posts/</strong> folder. This folder contains all post-related content.</li></ol><hr><h2 id="step-2-create-a-new-post-directory">Step 2: Create a New Post Directory</h2><ol><li>Create a new directory for your post:<ul><li>Name the folder based on the post title or a short identifier. For example:<pre><code class="language-bash">mkdir src/contents/posts/my-first-post
+</code></pre></li><li>Use lowercase letters and hyphens to maintain consistency in folder naming.</li></ul></li></ol><hr><h2 id="step-3-add-an-index.md-file">Step 3: Add an <strong>index.md</strong> File</h2><ol><li>Inside the new directory (e.g., <strong>src/contents/posts/my-first-post</strong>), create a file named <strong>index.md</strong>.<ul><li>This file stores the metadata and content for the post.</li></ul></li><li>Add the following content to the <strong>index.md</strong> file:<pre><code class="language-markdown">---
 type: post
 title: "My First Blog Post"
 description: "This is an introduction to my first post."
@@ -137,7 +136,7 @@ authors:
   - john-doe
 featured: true
 ---
-</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>post</code>.</li><li><strong>title</strong>: The title of the post as it will appear on the site.</li><li><strong>description</strong>: A brief description or summary of the post.</li><li><strong>publication</strong>: Specifies the publication date in the <code>YYYY-MM-DD HH:MM:SS</code> format.</li><li><strong>tags</strong>: A list of tags associated with the post.</li><li><strong>authors</strong>: A list of authors who contributed to the post.</li><li><strong>featured</strong>: Set to <code>true</code> if the post should appear in the featured section of the homepage.</li></ul></li></ol><hr><h3 id="step-4-write-the-post-content">Step 4: Write the Post Content</h3><ol><li>Below the metadata in <code>index.md</code>, write the full content of your post using Markdown. Example:<pre><code>---
+</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <strong>post</strong>.</li><li><strong>title</strong>: The title of the post as it will appear on the site.</li><li><strong>description</strong>: A brief description or summary of the post.</li><li><strong>publication</strong>: Specifies the publication date in the <strong>YYYY-MM-DD HH:MM:SS</strong> format.</li><li><strong>tags</strong>: A list of tags associated with the post.</li><li><strong>authors</strong>: A list of authors who contributed to the post.</li><li><strong>featured</strong>: Set to <strong>true</strong> if the post should appear in the featured section of the homepage.</li></ul></li></ol><hr><h2 id="step-4-write-the-post-content">Step 4: Write the Post Content</h2><ol><li>Below the metadata in <strong>index.md</strong>, write the full content of your post using Markdown. Example:</li></ol><pre><code class="language-markdown">---
 type: post
 title: "My First Blog Post"
 description: "This is an introduction to my first post."
@@ -158,11 +157,12 @@ This is the content of my first blog post. It’s written in Markdown, so you ca
 - Item 1
 - Item 2
 - Item 3
-</code></pre></li></ol><hr><h3 id="step-5-add-images-optional">Step 5: Add Images (Optional)</h3><ol><li>If your post includes images, create an <strong>assets</strong> folder inside the post directory:<pre><code>mkdir src/contents/posts/my-first-post/assets
-</code></pre></li><li>Place your images in the <strong>assets</strong> folder and reference them in your Markdown content. Example:<pre><code class="language-markdown">![My Image](./assets/my-image.jpg)
-</code></pre></li></ol><hr><h3 id="step-6-regenerate-the-site">Step 6: Regenerate the Site</h3><p>Once the post is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate
-</code></pre></li><li>This updates the site’s content and templates to reflect the new post.</li></ol><hr><h3 id="step-7-verify-the-post">Step 7: Verify the Post</h3><ol><li>Start the local development server:<pre><code>toucan serve
-</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000">http://localhost:3000</a>.</li><li>Go to the <strong>Posts</strong> page or homepage to verify that the new post is displayed.</li></ol><hr><h3 id="additional-notes">Additional Notes</h3><ul><li><strong>Editing Metadata</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the post’s metadata or content.</li></ul></li><li><strong>Featured Posts</strong>:<ul><li>To feature a post, ensure the <code>featured</code> field in the metadata is set to <code>true</code>.</li></ul></li></ul><hr><p>This guide ensures you can easily create and manage posts in <strong>Try-O-Theme</strong>.</p>
+</code></pre><hr><h2 id="step-5-add-a-cover-image">Step 5: Add a Cover Image</h2><ol><li>Your new post requires a cover image, create an <strong>assets</strong> folder inside the post directory:</li></ol><pre><code class="language-bash">mkdir src/contents/posts/my-first-post/assets
+</code></pre><ol><li>Copy your cover image to the assets folder:</li></ol><ul><li>The filename should be cover.* (e.g., cover.jpg, cover.png, cover.webp).</li><li>If there is a cover.* image in the assets folder, Toucan will automatically use it as the post’s cover image.</li></ul><h2 id="step-6-add-images-optional">Step 6: Add Images (Optional)</h2><ol><li>If your post needs to include other images, create an <strong>assets</strong> folder inside the post directory (if not already exist):</li></ol><pre><code class="language-bash">mkdir src/contents/posts/my-first-post/assets
+</code></pre><ol><li>Place your images in the <strong>assets</strong> folder and reference them in your Markdown content. Example:</li></ol><pre><code class="language-markdown">![My Image](./assets/my-image.jpg)
+</code></pre><hr><h2 id="step-6-regenerate-the-site">Step 6: Regenerate the Site</h2><p>Once the post is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code class="language-bash">toucan generate
+</code></pre></li><li>This updates the site’s content and templates to reflect the new post.</li></ol><hr><h2 id="step-7-verify-the-post">Step 7: Verify the Post</h2><ol><li>Start the local development server:<pre><code class="language-bash">toucan serve
+</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000">http://localhost:3000</a>.</li><li>Go to the <strong>Posts</strong> page or homepage to verify that the new post is displayed.</li></ol><hr><h2 id="additional-notes">Additional Notes</h2><ul><li><strong>Editing Metadata</strong>:<ul><li>You can edit the <strong>index.md</strong> file at any time to update the post’s metadata or content.</li></ul></li><li><strong>Featured Posts</strong>:<ul><li>To feature a post, ensure the <strong>featured</strong> field in the metadata is set to <strong>true</strong>.</li></ul></li></ul><hr><p>This guide ensures you can easily create and manage posts in <strong>Try-O-Theme</strong>.</p>
                         
                     <h4>TAGS</h4> 
                     <div class="tag-list">
@@ -215,6 +215,7 @@ This is the content of my first blog post. It’s written in Markdown, so you ca
                                     2025.01.20.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -234,6 +235,7 @@ This is the content of my first blog post. It’s written in Markdown, so you ca
                                     2025.01.19.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -253,6 +255,7 @@ This is the content of my first blog post. It’s written in Markdown, so you ca
                                     2025.01.18.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -272,6 +275,7 @@ This is the content of my first blog post. It’s written in Markdown, so you ca
                                     2025.01.17.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -291,6 +295,7 @@ This is the content of my first blog post. It’s written in Markdown, so you ca
                                     2025.01.15.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -310,6 +315,7 @@ This is the content of my first blog post. It’s written in Markdown, so you ca
                                     2025.01.14.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         

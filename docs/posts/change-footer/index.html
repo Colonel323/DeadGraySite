@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="/css/modern-normalize.css">
     <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/colors.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/navigation.css">
@@ -98,9 +98,7 @@
                         </svg>
                     </label>
                     <div class="menu-items">
-                        <a href="/news/">News</a>
-                    <a href="/bio/">Bio</a>
-                    <a href="/contact/">Contact</a>
+                        <a href="/about/">About</a>
                     </div>
             </nav>
         </header>
@@ -121,10 +119,11 @@
                             2025.01.14.
                         </time>
                         |
+                            <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                     
                     </div>
                     
-                    <h1>Customize the Footer</h1><p>The footer is an important section of your website, often used to display additional navigation, social media links, or copyright information. Follow these steps to customize the footer in <strong>Try-O-Theme</strong>.</p><hr><h3 id="step-1-edit-the-footer-content">Step 1: Edit the Footer Content</h3><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file contains the global configuration for your site, including footer content.</li></ul></li><li>Locate the <code>footer-socials</code> section. Example:<pre><code class="language-yaml">footer-socials:
+                    <h1>Customize the Footer</h1><p>The footer is an important section of your website, often used to display additional navigation, social media links, or copyright information. Follow these steps to customize the footer in <strong>Try-O-Theme</strong>.</p><hr><h2 id="step-1-edit-the-footer-content">Step 1: Edit the Footer Content</h2><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file contains the global configuration for your site, including footer content.</li></ul></li><li>Locate the <strong>footer-socials</strong> section. Example:<pre><code class="language-yaml">footer-socials:
   - title: "Instagram"
     url: "https://instagram.com/"
   - title: "Facebook"
@@ -133,12 +132,12 @@
     url: "https://youtube.com/"
   - title: "LinkedIn"
     url: "https://linkedin.com/"
-</code></pre></li><li>Add, update, or remove social media links as needed:<ul><li><strong>title</strong>: The name of the social platform or link.</li><li><strong>url</strong>: The URL for the social link.</li></ul></li></ol><hr><h3 id="step-2-add-custom-links-or-text">Step 2: Add Custom Links or Text</h3><ol><li>To include additional text (e.g., copyright notices or custom links), locate or add a section like this in <strong>index.yaml</strong>:<pre><code class="language-yaml">footer-links:
+</code></pre></li><li>Add, update, or remove social media links as needed:<ul><li><strong>title</strong>: The name of the social platform or link.</li><li><strong>url</strong>: The URL for the social link.</li></ul></li></ol><hr><h2 id="step-2-add-custom-links-or-text">Step 2: Add Custom Links or Text</h2><ol><li>To include additional text (e.g., copyright notices or custom links), locate or add a section like this in <strong>index.yaml</strong>:<pre><code class="language-yaml">footer-links:
   - label: "Privacy Policy"
     url: "/privacy-policy/"
   - label: "Terms of Service"
     url: "/terms-of-service/"
-</code></pre></li><li>Modify the content to fit your requirements::<ul><li><strong>label</strong>: The text for the footer link.</li><li><strong>url</strong>: The relative or absolute URL for the link.</li></ul></li></ol><hr><h3 id="step-3-update-footer-styles-optional">Step 3: Update Footer Styles (Optional)</h3><ol><li>Navigate to the <strong>src/themes/default/templates/partials/</strong> directory. The footer layout is defined in the Mustache file: <code>footer.mustache</code>.</li><li>Edit the <code>footer.mustache</code> to adjust the structure, style, or additional content. Example:<pre><code class="language-html">&lt;footer&gt;
+</code></pre></li><li>Modify the content to fit your requirements::<ul><li><strong>label</strong>: The text for the footer link.</li><li><strong>url</strong>: The relative or absolute URL for the link.</li></ul></li></ol><hr><h2 id="step-3-update-footer-styles-optional">Step 3: Update Footer Styles (Optional)</h2><ol><li>Navigate to the <strong>src/themes/default/templates/partials/</strong> directory. The footer layout is defined in the Mustache file: <strong>footer.mustache</strong>.</li><li>Edit the <strong>footer.mustache</strong> to adjust the structure, style, or additional content. Example:<pre><code class="language-html">&lt;footer&gt;
   &lt;div class="footer-links"&gt;
     {{#footer-links}}
     &lt;a href="{{url}}"&gt;{{label}}&lt;/a&gt;
@@ -150,9 +149,9 @@
     {{/footer-socials}}
   &lt;/div&gt;
 &lt;/footer&gt;
-</code></pre></li><li>Modify the CSS styles in <strong>src/themes/default/assets/css/footer.css</strong> to match your design preferences.</li></ol><hr><h3 id="step-4-regenerate-the-site">Step 4: Regenerate the Site</h3><p>After updating the footer content or styles, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate
-</code></pre></li></ol><hr><h3 id="step-5-verify-the-footer-changes">Step 5: Verify the Footer Changes</h3><ol><li>Start the local development server:<pre><code>toucan serve
-</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000">http://localhost:3000</a>.</li><li>Scroll to the footer section to verify that the updates have been applied</li></ol><hr><h3 id="additional-notes">Additional Notes</h3><ul><li><strong>Dynamic Content</strong>:<ul><li>You can dynamically add more social or custom links by expanding the <code>index.yaml</code> file.</li></ul></li><li><strong>Footer Layout</strong>:<ul><li>For advanced customization, create a new footer template or modify the existing <code>footer.mustache</code> file.</li></ul></li></ul><hr><p>This guide ensures you can easily customize and manage your footer content in <strong>Try-O-Theme</strong>.</p>
+</code></pre></li><li>Modify the CSS styles in <strong>src/themes/default/assets/css/footer.css</strong> to match your design preferences.</li></ol><hr><h2 id="step-4-regenerate-the-site">Step 4: Regenerate the Site</h2><p>After updating the footer content or styles, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code class="language-bash">toucan generate
+</code></pre></li></ol><hr><h2 id="step-5-verify-the-footer-changes">Step 5: Verify the Footer Changes</h2><ol><li>Start the local development server:<pre><code class="language-bash">toucan serve
+</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000">http://localhost:3000</a>.</li><li>Scroll to the footer section to verify that the updates have been applied</li></ol><hr><h2 id="additional-notes">Additional Notes</h2><ul><li><strong>Dynamic Content</strong>:<ul><li>You can dynamically add more social or custom links by expanding the <strong>index.yaml</strong> file.</li></ul></li><li><strong>Footer Layout</strong>:<ul><li>For advanced customization, create a new footer template or modify the existing <strong>footer.mustache</strong> file.</li></ul></li></ul><hr><p>This guide ensures you can easily customize and manage your footer content in <strong>Try-O-Theme</strong>.</p>
                         
                     <h4>TAGS</h4> 
                     <div class="tag-list">
@@ -205,6 +204,7 @@
                                     2025.01.20.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -224,6 +224,7 @@
                                     2025.01.19.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -243,6 +244,7 @@
                                     2025.01.18.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -262,6 +264,7 @@
                                     2025.01.17.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -281,6 +284,7 @@
                                     2025.01.16.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -300,6 +304,7 @@
                                     2025.01.15.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         

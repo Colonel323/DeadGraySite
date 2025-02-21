@@ -4,18 +4,11 @@
     <description>Description for my site</description>
     <link>http://localhost:3000</link>
     <language>en-US</language>
-    <lastBuildDate>Mon, 17 Feb 2025 11:30:25 +0000</lastBuildDate>
-    <pubDate>Mon, 10 Feb 2025 11:22:00 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Feb 2025 15:27:14 +0000</lastBuildDate>
+    <pubDate>Mon, 20 Jan 2025 01:36:39 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="http://localhost:3000rss.xml" rel="self" type="application/rss+xml"/>
 
-<item>
-    <guid isPermaLink="true">http://localhost:3000/posts/my-first-post/</guid>
-    <title><![CDATA[ My First Blog Post ]]></title>
-    <description><![CDATA[ This is an introduction to my first post. ]]></description>
-    <link>http://localhost:3000/posts/my-first-post/</link>
-    <pubDate>Mon, 10 Feb 2025 11:22:00 +0000</pubDate>
-</item>
 <item>
     <guid isPermaLink="true">http://localhost:3000/posts/start/</guid>
     <title><![CDATA[ START ]]></title>
@@ -67,24 +60,38 @@
 </item>
 <item>
     <guid isPermaLink="true">http://localhost:3000/posts/markdown-basic/</guid>
-    <title><![CDATA[ Markdown Basics - Text Formatting and Lists ]]></title>
-    <description><![CDATA[ This guide will walk you through the basics of Markdown text formatting and lists ]]></description>
+    <title><![CDATA[ Markdown Basics - Text Formatting ]]></title>
+    <description><![CDATA[ This guide will walk you through the basics of Markdown text formatting ]]></description>
     <link>http://localhost:3000/posts/markdown-basic/</link>
     <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
     <guid isPermaLink="true">http://localhost:3000/posts/markdown-basic2/</guid>
-    <title><![CDATA[ Markdown Basics - Links, Images, and Tables ]]></title>
-    <description><![CDATA[ This guide will walk you through how to use links, images, and tables in Markdown ]]></description>
+    <title><![CDATA[ Markdown Basics - List, Links and Images ]]></title>
+    <description><![CDATA[ This guide will walk you through how to use lists, links and images in Markdown ]]></description>
     <link>http://localhost:3000/posts/markdown-basic2/</link>
     <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+</item>
+<item>
+    <guid isPermaLink="true">http://localhost:3000/posts/theme-tweaks/</guid>
+    <title><![CDATA[ Theme Tweaks ]]></title>
+    <description><![CDATA[ Learn how to customize your Try-O-Theme by changing styles and using block directives. ]]></description>
+    <link>http://localhost:3000/posts/theme-tweaks/</link>
+    <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
     <guid isPermaLink="true">http://localhost:3000/posts/github-deploy/</guid>
     <title><![CDATA[ GitHub Deploy ]]></title>
     <description><![CDATA[ Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site ]]></description>
     <link>http://localhost:3000/posts/github-deploy/</link>
-    <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+</item>
+<item>
+    <guid isPermaLink="true">http://localhost:3000/posts/trouble-shooting/</guid>
+    <title><![CDATA[ Troubleshooting ]]></title>
+    <description><![CDATA[ Solutions to common issues with Try-O-Theme and Toucan static site generator. ]]></description>
+    <link>http://localhost:3000/posts/trouble-shooting/</link>
+    <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
 </item>
 
 </channel>

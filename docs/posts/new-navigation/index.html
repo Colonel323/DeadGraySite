@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="/css/modern-normalize.css">
     <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/colors.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/navigation.css">
@@ -98,9 +98,7 @@
                         </svg>
                     </label>
                     <div class="menu-items">
-                        <a href="/news/">News</a>
-                    <a href="/bio/">Bio</a>
-                    <a href="/contact/">Contact</a>
+                        <a href="/about/">About</a>
                     </div>
             </nav>
         </header>
@@ -121,10 +119,11 @@
                             2025.01.15.
                         </time>
                         |
+                            <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                     
                     </div>
                     
-                    <h1>Create a Custom Page in Navigation</h1><p>Adding a custom page is a great way to enhance your site’s functionality by including pages like ‘Contact Us,’ ‘FAQ,’ or other static content. Follow the steps below to create a custom page and add it to the navigation menu in <strong>Try-O-Theme</strong>.</p><hr><h3 id="step-1-edit-the-navigation-menu">Step 1: Edit the Navigation Menu</h3><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file manages the navigation menu displayed on your site.</li></ul></li><li>Add a new entry under the <code>navigation</code> section for your custom page. Example:<pre><code>navigation:
+                    <h1>Create a Custom Page in Navigation</h1><p>Adding a custom page is a great way to enhance your site’s functionality by including pages like ‘Contact Us,’ ‘FAQ,’ or other static content. Follow the steps below to create a custom page and add it to the navigation menu in <strong>Try-O-Theme</strong>.</p><hr><h2 id="step-1-edit-the-navigation-menu">Step 1: Edit the Navigation Menu</h2><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file manages the navigation menu displayed on your site.</li></ul></li><li>Add a new entry under the <strong>navigation</strong> section for your custom page. Example:<pre><code class="language-markdown">navigation:
   - label: "About"
     url: "/about/"
   - label: "Authors"
@@ -133,24 +132,24 @@
     url: "/tags/"
   - label: "Contact Us"
     url: "/contact-us/"
-</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>label</strong>: The text displayed in the navigation menu.</li><li><strong>url</strong>: The relative URL of the custom page.</li></ul></li></ol><hr><h3 id="step-2-create-the-custom-page-directory">Step 2: Create the Custom Page Directory</h3><ol><li>Navigate to the <strong>src/contents/</strong> folder.</li><li>Create a new directory for your custom page. For example:<pre><code class="language-bash">mkdir src/contents/contact-us
-</code></pre></li></ol><hr><h3 id="step-3-add-an-index.md-file">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/contact-us</code>), create a file named <code>index.md</code>.<ul><li>This file stores the metadata and content for the custom page.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---
+</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>label</strong>: The text displayed in the navigation menu.</li><li><strong>url</strong>: The relative URL of the custom page.</li></ul></li></ol><hr><h2 id="step-2-create-the-custom-page-directory">Step 2: Create the Custom Page Directory</h2><ol><li>Navigate to the <strong>src/contents/</strong> folder.</li><li>Create a new directory for your custom page. For example:<pre><code class="language-bash">mkdir src/contents/contact-us
+</code></pre></li></ol><hr><h2 id="step-3-add-an-index.md-file">Step 3: Add an <strong>index.md</strong> File</h2><ol><li>Inside the new directory (e.g., <strong>src/contents/contact-us</strong>), create a file named <strong>index.md</strong>.<ul><li>This file stores the metadata and content for the custom page.</li></ul></li><li>Add the following content to the <strong>index.md</strong> file:<pre><code class="language-markdown">---
 title: "Contact Us"
 description: "Get in touch with us through this page."
 image: /images/contact-us-header.jpg
 template: pages.default_page
 ---
-</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>title</strong>: The title of the custom page.</li><li><strong>description</strong>: A short description or summary of the page’s content.</li><li><strong>image</strong>: A header image for the page (optional).</li><li><strong>template</strong>: The Mustache template used to render the page.</li></ul></li></ol><hr><h3 id="step-4-add-content-to-the-page">Step 4: Add Content to the Page</h3><p>Below the metadata in <code>index.md</code>, write the content of your custom page using Markdown. Example:</p><pre><code>## Contact Us
+</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>title</strong>: The title of the custom page.</li><li><strong>description</strong>: A short description or summary of the page’s content.</li><li><strong>image</strong>: A header image for the page (optional).</li><li><strong>template</strong>: The Mustache template used to render the page.</li></ul></li></ol><hr><h2 id="step-4-add-content-to-the-page">Step 4: Add Content to the Page</h2><p>Below the metadata in <strong>index.md</strong>, write the content of your custom page using Markdown. Example:</p><pre><code class="language-text">## Contact Us
 
 We'd love to hear from you! Please use the contact form below or email us directly at [support@example.com](mailto:support@example.com).
 
 ### Office Address
 123 Example Street  
 City, Country 12345
-</code></pre><hr><h3 id="step-5-create-a-new-template-optional">Step 5: Create a New Template (Optional)</h3><ol><li>If the default template <code>pages.default_page</code> does not fit your needs, create a custom Mustache template:<ul><li>Navigate to <strong>src/themes/default/templates/pages/</strong>.</li><li>Create a new Mustache file, e.g., <code>contact_page.mustache</code>.</li></ul></li><li>Update the <code>template</code> field in the custom page’s metadata to use your new template:<pre><code>template: pages.contact_page
-</code></pre></li></ol><hr><h3 id="step-6-regenerate-the-site">Step 6: Regenerate the Site</h3><p>Once the custom page is created, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate
-</code></pre></li><li>This updates the site’s content and refreshes the navigation menu.</li></ol><hr><h3 id="step-7-verify-the-custom-page">Step 7: Verify the Custom Page</h3><ol><li>Start the local development server:<pre><code>toucan serve
-</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000/contact-us/">http://localhost:3000/contact-us/</a>.</li><li>Ensure that the custom page is displayed correctly and can be accessed from the navigation menu.</li></ol><hr><h3 id="additional-notes">Additional Notes</h3><ul><li><strong>Updating Content</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the content of the custom page.</li></ul></li><li><strong>Styling</strong>:<ul><li>Update the relevant Mustache templates and CSS files in the <strong>themes/default/</strong> directory to customize the page’s look.</li></ul></li></ul><hr><p>This guide ensures you can create and manage custom pages with ease in <strong>Try-O-Theme</strong>.</p>
+</code></pre><hr><h2 id="step-5-create-a-new-template-optional">Step 5: Create a New Template (Optional)</h2><ol><li>If the default template <strong>pages.default_page</strong> does not fit your needs, create a custom Mustache template:<ul><li>Navigate to <strong>src/themes/default/templates/pages/</strong>.</li><li>Create a new Mustache file, e.g., <strong>contact_page.mustache</strong>.</li></ul></li><li>Update the <strong>template</strong> field in the custom page’s metadata to use your new template:<pre><code class="language-markdown">template: pages.contact_page
+</code></pre></li></ol><hr><h2 id="step-6-regenerate-the-site">Step 6: Regenerate the Site</h2><p>Once the custom page is created, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code class="language-bash">toucan generate
+</code></pre></li><li>This updates the site’s content and refreshes the navigation menu.</li></ol><hr><h2 id="step-7-verify-the-custom-page">Step 7: Verify the Custom Page</h2><ol><li>Start the local development server:<pre><code class="language-bash">toucan serve
+</code></pre></li><li>Open your browser and go to <a href="http://localhost:3000/contact-us/">http://localhost:3000/contact-us/</a>.</li><li>Ensure that the custom page is displayed correctly and can be accessed from the navigation menu.</li></ol><hr><h2 id="additional-notes">Additional Notes</h2><ul><li><strong>Updating Content</strong>:<ul><li>You can edit the <strong>index.md</strong> file at any time to update the content of the custom page.</li></ul></li><li><strong>Styling</strong>:<ul><li>Update the relevant Mustache templates and CSS files in the <strong>themes/default/</strong> directory to customize the page’s look.</li></ul></li></ul><hr><p>This guide ensures you can create and manage custom pages with ease in <strong>Try-O-Theme</strong>.</p>
                         
                     <h4>TAGS</h4> 
                     <div class="tag-list">
@@ -203,6 +202,7 @@ City, Country 12345
                                     2025.01.20.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -222,6 +222,7 @@ City, Country 12345
                                     2025.01.19.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -241,6 +242,7 @@ City, Country 12345
                                     2025.01.18.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -260,6 +262,7 @@ City, Country 12345
                                     2025.01.17.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -279,6 +282,7 @@ City, Country 12345
                                     2025.01.16.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
@@ -298,6 +302,7 @@ City, Country 12345
                                     2025.01.14.
                                 </time>
                                 |
+                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
