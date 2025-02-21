@@ -12,6 +12,8 @@ The band Dead Gray began as a one-man project by Andris Sipos (ex-Nuke, ex-Stron
 
 In 2024 the band was preparing to record their debut, full length album called: Bone Marrow. The album was recorded under extraordinary circumstances in a countryside castle to fully reach the potential of their unique sound. The release is expected in the first half of 2025!
 
+![My Image](./assets/bio/DG_lineup_logo.png)
+
 # Music
 
 Dead Gray could be categorized as post-grunge metal, but there's more to their story:
