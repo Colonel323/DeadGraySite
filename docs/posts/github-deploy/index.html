@@ -5,22 +5,22 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="canonical" href="http://localhost:3000/posts/github-deploy/">
-    <link rel="prev" href="http://localhost:3000/posts/theme-tweaks/">
-    <link rel="next" href="http://localhost:3000/posts/trouble-shooting/">
+    <link rel="canonical" href="https://www.deadgray.com/posts/github-deploy/">
+    <link rel="prev" href="https://www.deadgray.com/posts/theme-tweaks/">
+    <link rel="next" href="https://www.deadgray.com/posts/trouble-shooting/">
     
     <title>GitHub Deploy - My site</title>
     <meta name="description" content="Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site">
     
-    <meta property="og:url" content="http://localhost:3000/posts/github-deploy/">
+    <meta property="og:url" content="https://www.deadgray.com/posts/github-deploy/">
     <meta property="og:title" content="GitHub Deploy - My site">
     <meta property="og:description" content="Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site">
-    <meta property="og:image" content="http://localhost:3000/assets/posts/github-deploy/cover.jpg" />
+    <meta property="og:image" content="https://www.deadgray.com/assets/posts/github-deploy/cover.jpg" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GitHub Deploy - My site">
     <meta name="twitter:description" content="Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site">
-    <meta name="twitter:image" content="http://localhost:3000/assets/posts/github-deploy/cover.jpg">
+    <meta name="twitter:image" content="https://www.deadgray.com/assets/posts/github-deploy/cover.jpg">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -119,7 +119,7 @@
                             2025.01.10.
                         </time>
                         |
-                            <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
+                            <a href="https://www.deadgray.com/authors/toucansites/">Toucansites</a>
                     
                     </div>
                     
@@ -129,7 +129,7 @@ ssh-add ~/.ssh/id_ed25519
 </code></pre></li><li>Copy SSH Key:<pre><code class="language-bash">cat ~/.ssh/id_ed25519.pub
 </code></pre><ul><li>Copy the output (this is your public SSH key).</li></ul></li><li>Add SSH Key to GitHub:<ul><li>Go to <strong>GitHub > Settings > SSH and GPG Keys</strong>.</li><li>Click <strong>New SSH Key</strong>, give it a title, paste your copied <strong>SSH key</strong>, and click <strong>Add SSH Key</strong>.</li></ul></li><li>Test the Connection:<pre><code class="language-bash">ssh -T git@github.com
 </code></pre><ul><li>If everything is set up correctly, you’ll see a message like:</li></ul><pre><code class="language-text">Hi username! You've successfully authenticated, but GitHub does not provide shell access.
-</code></pre></li></ol><p>You’re now ready to clone, pull, and push repositories using SSH!</p><hr><h2 id="creating-a-repository-for-your-site">Creating a repository for your site</h2><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href="/posts/github-deploy#creating-your-site">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <strong>+</strong> , then click <strong>New repository</strong>.<br>    <img src="http://localhost:3000/assets/posts/github-deploy/image1.png" alt="image1"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br>    <img src="http://localhost:3000/assets/posts/github-deploy/image2.png" alt="image2"><strong>user</strong>.github.io or <strong>organization</strong>.github.io</li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <strong>user.github.io</strong> or <strong>organization.github.io</strong>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites" target="_blank">About GitHub Pages</a>.<br>    <img src="http://localhost:3000/assets/posts/github-deploy/image3.png" alt="image3"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility" target="_blank">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><hr><h2 id="add-content-to-the-repository">Add content to the repository</h2><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code class="language-bash">git clone https://github.com/your-username/your-repository.git
+</code></pre></li></ol><p>You’re now ready to clone, pull, and push repositories using SSH!</p><hr><h2 id="creating-a-repository-for-your-site">Creating a repository for your site</h2><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href="/posts/github-deploy#creating-your-site">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <strong>+</strong> , then click <strong>New repository</strong>.<br>    <img src="https://www.deadgray.com/assets/posts/github-deploy/image1.png" alt="image1"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br>    <img src="https://www.deadgray.com/assets/posts/github-deploy/image2.png" alt="image2"><strong>user</strong>.github.io or <strong>organization</strong>.github.io</li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <strong>user.github.io</strong> or <strong>organization.github.io</strong>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites" target="_blank">About GitHub Pages</a>.<br>    <img src="https://www.deadgray.com/assets/posts/github-deploy/image3.png" alt="image3"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility" target="_blank">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><hr><h2 id="add-content-to-the-repository">Add content to the repository</h2><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code class="language-bash">git clone https://github.com/your-username/your-repository.git
 </code></pre></li><li>Update base url<br>When deploying to GitHub Pages, you need to update the baseUrl field in the configuration file, which is location in <strong>src/contens/index.yml</strong>:<pre><code class="language-yaml">baseUrl: "http://localhost:3000/"
 </code></pre>Depending on your deployment setup, update baseUrl as follows:<ul><li>GitHub Pages (username/repo path):<pre><code class="language-yaml">baseUrl: "https://yourusername.github.io/repository-name/"
 </code></pre></li><li>Custom Domain (e.g., example.com):<pre><code class="language-yaml">baseUrl: "https://example.com/"
@@ -137,8 +137,8 @@ ssh-add ~/.ssh/id_ed25519
 </code></pre>After succesfull generation all the data is generated inside the <strong>docs</strong> folder by Toucan.</li><li>Push all the content to GitHub, add and commit files:<pre><code class="language-bash">git add .
 git commit -m "Add generated site content"
 git push origin main
-</code></pre></li></ol><hr><h2 id="creating-your-site">Creating your site</h2><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href="/posts/github-deploy/#creating-a-repository-for-your-site">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <strong>Settings</strong>. If you cannot see the <strong>Settings</strong> tab, select the <strong>…</strong> dropdown menu, then click <strong>Settings</strong>.</li><li>In the <strong>Code and automation</strong> section of the sidebar, click <strong>Pages</strong>.</li><li>Under Source, leave the option <strong>Deploy from a branch</strong>.<br>    <img src="http://localhost:3000/assets/posts/github-deploy/image4.png" alt="image4"></li><li>Under Branch:<br>    <img src="http://localhost:3000/assets/posts/github-deploy/image5.png" alt="image5"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code class="language-text">https://your-username.github.io/my-github-page/
-</code></pre></li></ol><hr><h2 id="managing-a-custom-domain">Managing a custom domain</h2><p>You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <strong>Settings</strong>. If you cannot see the <strong>Settings</strong> tab, select the <strong>…</strong> dropdown menu, then click <strong>Settings</strong>.</li><li>In the <strong>Code and automation</strong> section of the sidebar, click <strong>Pages</strong>.</li><li>Under <strong>Custom domain</strong>, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a <strong>CNAME</strong> file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no <strong>CNAME</strong> file is created, so you need to create one manually (containing only a line of text with your custom domain).<br>    <img src="http://localhost:3000/assets/posts/github-deploy/image6.png" alt="image6"></li><li>Navigate to your DNS provider (e.g., Namecheap, GoDaddy, Cloudflare) and update the DNS records.For Apex Domains (e.g., example.com), set up an <strong>A</strong> record pointing to GitHub’s IP addresses:<pre><code class="language-text">185.199.108.153
+</code></pre></li></ol><hr><h2 id="creating-your-site">Creating your site</h2><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href="/posts/github-deploy/#creating-a-repository-for-your-site">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <strong>Settings</strong>. If you cannot see the <strong>Settings</strong> tab, select the <strong>…</strong> dropdown menu, then click <strong>Settings</strong>.</li><li>In the <strong>Code and automation</strong> section of the sidebar, click <strong>Pages</strong>.</li><li>Under Source, leave the option <strong>Deploy from a branch</strong>.<br>    <img src="https://www.deadgray.com/assets/posts/github-deploy/image4.png" alt="image4"></li><li>Under Branch:<br>    <img src="https://www.deadgray.com/assets/posts/github-deploy/image5.png" alt="image5"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code class="language-text">https://your-username.github.io/my-github-page/
+</code></pre></li></ol><hr><h2 id="managing-a-custom-domain">Managing a custom domain</h2><p>You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <strong>Settings</strong>. If you cannot see the <strong>Settings</strong> tab, select the <strong>…</strong> dropdown menu, then click <strong>Settings</strong>.</li><li>In the <strong>Code and automation</strong> section of the sidebar, click <strong>Pages</strong>.</li><li>Under <strong>Custom domain</strong>, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a <strong>CNAME</strong> file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no <strong>CNAME</strong> file is created, so you need to create one manually (containing only a line of text with your custom domain).<br>    <img src="https://www.deadgray.com/assets/posts/github-deploy/image6.png" alt="image6"></li><li>Navigate to your DNS provider (e.g., Namecheap, GoDaddy, Cloudflare) and update the DNS records.For Apex Domains (e.g., example.com), set up an <strong>A</strong> record pointing to GitHub’s IP addresses:<pre><code class="language-text">185.199.108.153
 185.199.109.153
 185.199.110.153
 185.199.111.153
@@ -147,26 +147,26 @@ git push origin main
                         
                     <h4>TAGS</h4> 
                     <div class="tag-list">
-                            <a href="http://localhost:3000/tags/deployment/"><small>Deployment</small></a>
+                            <a href="https://www.deadgray.com/tags/deployment/"><small>Deployment</small></a>
                     </div>
         
                     <h4>SHARE VIA</h4> 
                         <div class="shares">
                         
-                            <a href="https://twitter.com/intent/tweet?url=http://localhost:3000/posts/github-deploy/" target="_blank">
+                            <a href="https://twitter.com/intent/tweet?url=https://www.deadgray.com/posts/github-deploy/" target="_blank">
                                 <svg viewBox="0 0 128 128">
                                 <path d="M75.916 54.2 122.542 0h-11.05L71.008 47.06 38.672 0H1.376l48.898 71.164L1.376 128h11.05L55.18 78.303 89.328 128h37.296L75.913 54.2ZM60.782 71.79l-4.955-7.086-39.42-56.386h16.972L65.19 53.824l4.954 7.086 41.353 59.15h-16.97L60.782 71.793Z" fill="currentColor" style="stroke-width:.104373"></path>
                                 </svg>
                             </a>
                            
-                            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:3000/posts/github-deploy/" target="_blank">
+                            <a href="https://www.linkedin.com/shareArticle?url=https://www.deadgray.com/posts/github-deploy/" target="_blank">
                                 <svg viewBox="0 0 128 128">
                                 <path fill="currentColor" d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"></path>
                                 <path fill="var(--background-color)" d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 11-10.5 10.49 10.5 10.5 0 0110.5-10.49M50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"></path>
                                 </svg>
                             </a>
                         
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/posts/github-deploy/" target="_blank">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.deadgray.com/posts/github-deploy/" target="_blank">
                                 <svg fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"/>
                                 </svg>
@@ -186,8 +186,8 @@ git push origin main
                 <div class="grid grid-221">
                         <div class="post-card">
                             
-                            <a href="http://localhost:3000/posts/theme-tweaks/" target="">
-                                <img src="http://localhost:3000/assets/posts/theme-tweaks/cover.jpg">
+                            <a href="https://www.deadgray.com/posts/theme-tweaks/" target="">
+                                <img src="https://www.deadgray.com/assets/posts/theme-tweaks/cover.jpg">
                             </a>
                         
                             <div class="post-meta">
@@ -196,18 +196,18 @@ git push origin main
                                     2025.01.11.
                                 </time>
                                 |
-                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
+                                    <a href="https://www.deadgray.com/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
                             <div class="post-title">
-                                <a href="http://localhost:3000/posts/theme-tweaks/" target="">Theme Tweaks </a>
+                                <a href="https://www.deadgray.com/posts/theme-tweaks/" target="">Theme Tweaks </a>
                             </div>
                             
                         </div>                <div class="post-card">
                             
-                            <a href="http://localhost:3000/posts/trouble-shooting/" target="">
-                                <img src="http://localhost:3000/assets/posts/trouble-shooting/cover.jpg">
+                            <a href="https://www.deadgray.com/posts/trouble-shooting/" target="">
+                                <img src="https://www.deadgray.com/assets/posts/trouble-shooting/cover.jpg">
                             </a>
                         
                             <div class="post-meta">
@@ -216,12 +216,12 @@ git push origin main
                                     2025.01.09.
                                 </time>
                                 |
-                                    <a href="http://localhost:3000/authors/toucansites/">Toucansites</a>
+                                    <a href="https://www.deadgray.com/authors/toucansites/">Toucansites</a>
                                
                             </div>
                         
                             <div class="post-title">
-                                <a href="http://localhost:3000/posts/trouble-shooting/" target="">Troubleshooting </a>
+                                <a href="https://www.deadgray.com/posts/trouble-shooting/" target="">Troubleshooting </a>
                             </div>
                             
                         </div>            </div>

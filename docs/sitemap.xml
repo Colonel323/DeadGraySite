@@ -1,44 +1,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:3000</loc>
+        <loc>https://www.deadgray.com</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/about/</loc>
+        <loc>https://www.deadgray.com/about/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/authors/</loc>
+        <loc>https://www.deadgray.com/authors/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/authors/toucansites/</loc>
+        <loc>https://www.deadgray.com/authors/toucansites/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/tags/</loc>
+        <loc>https://www.deadgray.com/tags/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/tags/content/</loc>
+        <loc>https://www.deadgray.com/tags/content/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/tags/deployment/</loc>
+        <loc>https://www.deadgray.com/tags/deployment/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/tags/markdown/</loc>
+        <loc>https://www.deadgray.com/tags/markdown/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/start/</loc>
+        <loc>https://www.deadgray.com/posts/start/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/change-site-logo/</loc>
+        <loc>https://www.deadgray.com/posts/change-site-logo/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/new-tag/</loc>
+        <loc>https://www.deadgray.com/posts/new-tag/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/new-author/</loc>
+        <loc>https://www.deadgray.com/posts/new-author/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/new-post/</loc>
+        <loc>https://www.deadgray.com/posts/new-post/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/new-navigation/</loc>
+        <loc>https://www.deadgray.com/posts/new-navigation/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/change-footer/</loc>
+        <loc>https://www.deadgray.com/posts/change-footer/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/markdown-basic/</loc>
+        <loc>https://www.deadgray.com/posts/markdown-basic/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/markdown-basic2/</loc>
+        <loc>https://www.deadgray.com/posts/markdown-basic2/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/theme-tweaks/</loc>
+        <loc>https://www.deadgray.com/posts/theme-tweaks/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/github-deploy/</loc>
+        <loc>https://www.deadgray.com/posts/github-deploy/</loc>
         <lastmod>2025-02-21</lastmod>
-        <loc>http://localhost:3000/posts/trouble-shooting/</loc>
+        <loc>https://www.deadgray.com/posts/trouble-shooting/</loc>
         <lastmod>2025-02-21</lastmod>
     </url>
 </urlset>
