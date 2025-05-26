@@ -1,5 +1,5 @@
 ---
-title: "My site"
+title: "Dead Gray"
 description: "Description for my site"
 image: /images/default.png
 ---

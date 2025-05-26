@@ -22,6 +22,6 @@ Their songs revolve around themes of letting go.
 # Members
 
 - Bass: Andris Áldott
-- Drums: Sanyu Bánfalvi
+- Drums: Sanyi Bánfalvi
 - Vocal: Gergő László
 - Guitar: Andris Sipos
