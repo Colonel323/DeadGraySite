@@ -1,6 +1,6 @@
 name: Button
 tag: a
-params:
+parameters:
   - label: url
     default: ""
   - label: class

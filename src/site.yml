@@ -1,8 +1,8 @@
-baseUrl: "https://www.deadgray.com"
-language: "en-US"
+baseUrl: "https://www.deadgray.com/"
+#baseUrl: "http://localhost:3000/"
+locale: "en-US"
 title: "Dead Gray"
 description: "Description for my site"
-dateFormat: "yyyy.MM.dd."
 navigation:
     - label: "About"
       url: "/about/"
