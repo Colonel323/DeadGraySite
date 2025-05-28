@@ -1,5 +1,5 @@
-#baseUrl: "https://www.deadgray.com/"
-baseUrl: "http://localhost:3000/"
+baseUrl: "https://www.deadgray.com/"
+#baseUrl: "http://localhost:3000/"
 locale: "en-US"
 title: "Dead Gray"
 description: "Description for my site"
