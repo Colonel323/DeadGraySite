@@ -2,25 +2,25 @@
 {{$main}}
 <section id="blog">
 
-    {{#empty(site.context.posts)}}
-    {{/empty(site.context.posts)}}
-    {{^empty(site.context.posts)}}
+    {{#empty(context.posts)}}
+    {{/empty(context.posts)}}
+    {{^empty(context.posts)}}
     <div class="grid grid-321">
-    {{#site.context.posts}}
+    {{#context.posts}}
         {{> partials.post}}
-    {{/site.context.posts}}
+    {{/context.posts}}
     </div>
-    {{/empty(site.context.posts)}}
+    {{/empty(context.posts)}}
     
-    {{#empty(site.context.pagination)}}
-    {{/empty(site.context.pagination)}}
-    {{^empty(site.context.pagination)}}
+    {{#empty(context.pagination)}}
+    {{/empty(context.pagination)}}
+    {{^empty(context.pagination)}}
     <div class="pagination">
-    {{#site.context.pagination}}
+    {{#context.pagination}}
         {{> partials.pagination}}
-    {{/site.context.pagination}}
+    {{/context.pagination}}
     </div>
-    {{/empty(site.context.pagination)}}
+    {{/empty(context.pagination)}}
 </section>
 
 {{/main}}
