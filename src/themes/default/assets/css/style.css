@@ -586,3 +586,8 @@ a.button {
     box-shadow: none;
     transform: translateY(2px);
 }
+
+#navigation > a > picture > img {
+    max-width: 80vw;
+    max-height: fit-content;
+}
